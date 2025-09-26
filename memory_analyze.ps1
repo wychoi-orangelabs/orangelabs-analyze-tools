@@ -1,5 +1,3 @@
-[System.Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-
 # 전체 시스템 메모리 현황
 $os = Get-CimInstance Win32_OperatingSystem
 $totalMemory = $os.TotalVisibleMemorySize * 1KB
